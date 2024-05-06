@@ -11,7 +11,7 @@ const Pagination = ({
 }: PaginationProps) => {
   const isNextDisabled = currentPage === totalPages;
   return (
-    <div className="flex ml-10 mt-8 mb-1">
+    <div className="flex ml-10 mt-8 mb-5">
       <button
         className="px-4 py-2 flex items-center justify-end enabled:hover:bg-btn  disabled:cursor-not-allowed focus-visible:ring-blue-500 hacker-orange-bg"
         disabled={isNextDisabled}
