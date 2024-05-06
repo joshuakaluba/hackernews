@@ -1,0 +1,30 @@
+{
+  "name": "nextjs",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "date-fns": "^2.27.0",
+    "html-entities": "^2.3.3",
+    "next": "13.2.3",
+    "next-themes": "0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zustand": "4.5.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.1.1",
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "4.9.5"
+  }
+}

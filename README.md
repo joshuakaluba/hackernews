@@ -19,8 +19,8 @@ To run the application locally, follow these steps:
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://yourrepository.com/nextjs-app.git
-cd nextjs-app
+git clone https://github.com/joshuakaluba/hackernews.git
+cd hackernews
 npm install
 ```
 
