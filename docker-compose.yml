@@ -1,12 +1,14 @@
 version: '3.3'
 
 services:
-  nextjs:
-    build: .
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hackernews
+    restart: unless-stopped
     ports:
-      - "3000:3000"
+      - '3000:3000'
     volumes:
       - .:/app
-    environment:
-      - NODE_ENV=production
-    command: npm start 
+      - /app/node_modules
